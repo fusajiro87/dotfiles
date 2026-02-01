@@ -5,8 +5,8 @@ My Zsh, Kitty, and Powerlevel10k configuration files.
 ## Contents
 
 - **zsh**
-  - oh-my-zsh
-  - powerlevel10k
+  - **[oh-my-zsh](https://ohmyz.sh/)** – Zsh framework
+  - **[powerlevel10k](https://github.com/romkatv/powerlevel10k)**
   - plugins (autosuggestions, syntax highlighting, interactive-cd)
   - custom `update` command (replaces `sudo pacman -Syu` and `yay -Syu`)
 - **[kitty](https://sw.kovidgoyal.net/kitty/)** – terminal emulator
