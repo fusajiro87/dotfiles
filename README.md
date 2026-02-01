@@ -1,6 +1,6 @@
 # Dotfiles
 
-My Zsh, kitty, powerlevel10k) dotfiles
+My Zsh, kitty, powerlevel10k dotfiles
 
 ## 📦 Content
 
@@ -30,4 +30,4 @@ chmod +x ./install.sh
 exec zsh
 ```
 
-### You can find fastfetch image in `~/dotfiles/assets/`, you may overwrite it with your own picture with name picture.jpg.
+#### You can find fastfetch image in `~/dotfiles/assets/`, you may overwrite it with your own picture with name picture.jpg.
