@@ -40,13 +40,17 @@ fi
 PLUGIN_DIR="$HOME/.oh-my-zsh/custom/plugins"
 mkdir -p "$PLUGIN_DIR"
 
-while read -r plugin; do
-  [ -z "$plugin" ] && continue
-  if [ ! -d "$PLUGIN_DIR/$plugin" ]; then
-    git clone "https://github.com/zsh-users/$plugin" \
-      "$PLUGIN_DIR/$plugin"
+while read -r repo; do
+  [ -z "$repo" ] && continue
+
+  name="$(basename "$repo" .git)"
+
+  if [ ! -d "$PLUGIN_DIR/$name" ]; then
+    echo "🔌 Installing zsh plugin: $name"
+    git clone "$repo" "$PLUGIN_DIR/$name"
   fi
 done < zsh/plugins.txt
+
 
 # -------------------------------
 # Symlinks
