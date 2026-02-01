@@ -30,4 +30,4 @@ chmod +x ./install.sh
 exec zsh
 ```
 
-# You can find fastfetch image in `~/dotfiles/assets/`, you may overwrite it with your own picture.
+## You can find fastfetch image in `~/dotfiles/assets/`, you may overwrite it with your own picture.
