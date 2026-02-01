@@ -8,7 +8,7 @@ My Zsh, Kitty, and Powerlevel10k configuration files.
 
 ## Contents
 
-- **zsh**
+- **[zsh](https://www.zsh.org/)**
   - **[oh-my-zsh](https://ohmyz.sh/)** – Zsh framework
   - **[powerlevel10k](https://github.com/romkatv/powerlevel10k)** - Theme for Zsh
   - plugins (**[autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)**, **[syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)**, **[interactive-cd](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/zsh-interactive-cd/README.md)**)
