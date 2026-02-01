@@ -18,7 +18,7 @@ My Zsh, Kitty, and Powerlevel10k configuration files.
   - theme
   - Nerd Font support
   - Animated cursor trail
-- **install.sh**
+- **[install.sh](install.sh)**
   - installs missing packages
   - clones required plugins and themes
   - creates symlinks
