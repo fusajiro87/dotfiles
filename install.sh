@@ -16,7 +16,7 @@ fi
 # -------------------------------
 # Required packages
 # -------------------------------
-$PKG_INSTALL git curl zsh kitty ttf-meslo-nerd-font
+$PKG_INSTALL git curl zsh kitty ttf-meslo-nerd
 
 # -------------------------------
 # oh-my-zsh
