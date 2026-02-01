@@ -47,7 +47,7 @@ update() {
 # ==========================================================
 # Run fastfetch AFTER prompt initialization (p10k-safe)
 # ==========================================================
-FASTFETCH_IMAGE="$HOME/.config/dotfiles/assets/picture.jpg"
+FASTFETCH_IMAGE="$HOME/.config/dotfiles/assets/picture.png"
 
 if [[ $- == *i* ]] && command -v fastfetch >/dev/null && [[ -f "$FASTFETCH_IMAGE" ]]; then
   fastfetch --logo "$FASTFETCH_IMAGE" --logo-padding 5 --logo-width 45
