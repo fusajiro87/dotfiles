@@ -47,11 +47,9 @@ update() {
 # ==========================================================
 # Run fastfetch AFTER prompt initialization (p10k-safe)
 # ==========================================================
-if command -v fastfetch >/dev/null; then
-  if [[ -f "$HOME/Pictures/gandalf.jpg" ]]; then
-    fastfetch -l "$HOME/Pictures/gandalf.jpg" --logo-padding 5 --logo-width 45
-  else
-    fastfetch
-  fi
+FASTFETCH_IMAGE="$HOME/.config/dotfiles/assets/picture.jpg"
+
+if [[ $- == *i* ]] && command -v fastfetch >/dev/null && [[ -f "$FASTFETCH_IMAGE" ]]; then
+  fastfetch --logo "$FASTFETCH_IMAGE" --logo-padding 5 --logo-width 45
 fi
 
