@@ -1,22 +1,22 @@
 # Dotfiles
 
-My Zsh, kitty, powerlevel10k dotfiles
+My Zsh, Kitty, and Powerlevel10k configuration files.
 
-## 📦 Content
+## 📦 Contents
 
 - **zsh**
   - oh-my-zsh
   - powerlevel10k
   - plugins (autosuggestions, syntax highlighting, interactive-cd)
-  - For "sudo pacman -Syu and yay -S just write "update"
+  - custom `update` command (replaces `sudo pacman -Syu` and `yay -Syu`)
 - **kitty**
-  - terminal config
+  - terminal configuration
   - theme
-  - Nerd Font
+  - Nerd Font support
 - **install.sh**
-  - install missing packages
-  - clone plugins and themes
-  - create symlinks
+  - installs missing packages
+  - clones required plugins and themes
+  - creates symlinks
 
 ---
 
