@@ -9,7 +9,7 @@ My Zsh, Kitty, and Powerlevel10k configuration files.
   - powerlevel10k
   - plugins (autosuggestions, syntax highlighting, interactive-cd)
   - custom `update` command (replaces `sudo pacman -Syu` and `yay -Syu`)
-- **kitty**
+- - **[kitty](https://sw.kovidgoyal.net/kitty/)** – terminal emulator
   - terminal configuration
   - theme
   - Nerd Font support
