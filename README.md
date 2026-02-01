@@ -18,6 +18,12 @@ My Zsh, Kitty, and Powerlevel10k configuration files.
   - clones required plugins and themes
   - creates symlinks
 
+## Requirements
+
+- **Git**
+
+All other required packages and dependencies are installed automatically by the script.
+
 ---
 
 ## Installation
