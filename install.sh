@@ -9,7 +9,7 @@ echo "▶ Dotfiles install (minimal)"
 if command -v pacman >/dev/null; then
   PKG_INSTALL="sudo pacman -S --needed --noconfirm"
 else
-  echo "❌ Only Arch Linux is supported right now"
+  echo "Only Arch Linux is supported right now"
   exit 1
 fi
 
@@ -46,7 +46,7 @@ while read -r repo; do
   name="$(basename "$repo" .git)"
 
   if [ ! -d "$PLUGIN_DIR/$name" ]; then
-    echo "🔌 Installing zsh plugin: $name"
+    echo "Installing zsh plugin: $name"
     git clone "$repo" "$PLUGIN_DIR/$name"
   fi
 done < zsh/plugins.txt
@@ -65,4 +65,6 @@ ln -sf "$PWD/zsh/.p10k.zsh" "$HOME/.p10k.zsh"
 mkdir -p "$HOME/.config"
 ln -sf "$PWD/kitty" "$HOME/.config/kitty"
 
-echo "✅ Done. Restart terminal."
+echo "Installation complete. Open Kitty (recommended) or start a new terminal session to apply the configuration."
+
+
