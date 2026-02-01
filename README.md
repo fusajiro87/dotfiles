@@ -28,5 +28,6 @@ cd dotfiles
 chmod +x ./install.sh
 ./install.sh
 exec zsh
+'''
 
 # You can find fastfetch image in ~/dotfiles/assets/ 
