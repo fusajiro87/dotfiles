@@ -16,7 +16,7 @@ fi
 # -------------------------------
 # Required packages
 # -------------------------------
-$PKG_INSTALL git curl zsh kitty ttf-meslo-nerd fzf
+$PKG_INSTALL git curl zsh kitty ttf-meslo-nerd fzf fastfetch
 
 # -------------------------------
 # oh-my-zsh
