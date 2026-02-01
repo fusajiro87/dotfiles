@@ -53,6 +53,11 @@ You may optionally set it as your default terminal emulator.
 
 That's it.
 
+## Preview
+
+![Terminal preview](assets/preview.png)
+
+
 ## Fastfetch image
 
 You can find the fastfetch image in `~/dotfiles/assets/`.
