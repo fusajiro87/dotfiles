@@ -36,7 +36,7 @@ You may optionally set it as your default terminal.
 
 That's it.
 
-##### Fastfetch image
+## Fastfetch image
 
 You can find the fastfetch image in `~/dotfiles/assets/`.
 You can replace it with your own picture (named `picture.png`).
