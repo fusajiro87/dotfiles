@@ -1,34 +1,26 @@
-# 🧰 Dotfiles
+# Dotfiles
 
-Saját Linux környezetem konfigurációi (zsh, kitty, powerlevel10k),  
-elsősorban **Arch Linux**-ra optimalizálva.
+My Zsh, kitty, powerlevel10k) dotfiles
 
-A cél:
-- biztonsági mentés GitHubra
-- új gépen gyors újraépítés
-- minimális varázslat, maximális átláthatóság
-
----
-
-## 📦 Tartalom
+## 📦 Content
 
 - **zsh**
   - oh-my-zsh
   - powerlevel10k
-  - pluginok (autosuggestions, syntax highlighting, interactive-cd)
-  - saját helper függvények (`update`)
+  - plugins (autosuggestions, syntax highlighting, interactive-cd)
+  - For "sudo pacman -Syu and yay -S just write "update"
 - **kitty**
   - terminal config
-  - egyedi színtéma
-  - Nerd Font támogatás
+  - theme
+  - Nerd Font
 - **install.sh**
-  - hiányzó csomagok telepítése
-  - pluginok és theme-ek klónozása
-  - symlinkek létrehozása
+  - install missing packages
+  - clone plugins and themes
+  - create symlinks
 
 ---
 
-## 🚀 Telepítés új gépen
+## Installation
 
 ```bash
 git clone https://github.com/fusajiro87/dotfiles.git
@@ -36,3 +28,5 @@ cd dotfiles
 chmod +x ./install.sh
 ./install.sh
 exec zsh
+
+# You can find fastfetch image in ~/dotfiles/assets/ 
