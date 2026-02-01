@@ -1,12 +1,16 @@
 # Dotfiles
 
+![Arch Linux](https://img.shields.io/badge/Arch_Linux-tested-blue?logo=arch-linux)
+![Zsh](https://img.shields.io/badge/Shell-Zsh-green?logo=zsh)
+![Kitty](https://img.shields.io/badge/Terminal-Kitty-orange)
+
 My Zsh, Kitty, and Powerlevel10k configuration files.
 
 ## Contents
 
 - **zsh**
   - **[oh-my-zsh](https://ohmyz.sh/)** – Zsh framework
-  - **[powerlevel10k](https://github.com/romkatv/powerlevel10k)** - Theme for zsh
+  - **[powerlevel10k](https://github.com/romkatv/powerlevel10k)** - Theme for Zsh
   - plugins (**[autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)**, **[syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)**, **[interactive-cd](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/zsh-interactive-cd/README.md)**)
   - custom `update` command (replaces `sudo pacman -Syu` and `yay -Syu`)
 - **[kitty](https://sw.kovidgoyal.net/kitty/)** – terminal emulator
@@ -20,13 +24,13 @@ My Zsh, Kitty, and Powerlevel10k configuration files.
 
 ## Requirements
 
-- Tested on **Arch Linux** and **Arch-based distributions** (and may work only on these systems).
+- Tested on **Arch Linux** and **Arch-based distributions** (and may only work on these systems).
 - **Git** (required to clone the repository)
 
 If Git is not installed, you can install it with:
 
 ```bash
-sudo pacman -S git base-devel
+sudo pacman -S git
 ```
 
 All other required packages and dependencies are installed automatically by the script.
@@ -45,7 +49,7 @@ chmod +x ./install.sh
 ## Usage
 
 After installation, simply open Kitty.
-You may optionally set it as your default terminal.
+You may optionally set it as your default terminal emulator.
 
 That's it.
 
