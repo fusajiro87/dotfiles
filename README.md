@@ -20,7 +20,14 @@ My Zsh, Kitty, and Powerlevel10k configuration files.
 
 ## Requirements
 
-- **Git**
+- Tested on **Arch Linux** and **Arch-based distributions** (and may work only on these systems).
+- **Git** (required to clone the repository)
+
+If Git is not installed, you can install it with:
+
+```bash
+sudo pacman -S git base-devel
+```
 
 All other required packages and dependencies are installed automatically by the script.
 
