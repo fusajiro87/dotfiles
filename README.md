@@ -27,7 +27,6 @@ git clone https://github.com/fusajiro87/dotfiles.git
 cd dotfiles
 chmod +x ./install.sh
 ./install.sh
-exec zsh
 ```
 
 ##### Fastfetch image
