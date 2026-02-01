@@ -51,6 +51,11 @@ while read -r repo; do
   fi
 done < zsh/plugins.txt
 
+# -------------------------------
+# Assets (fastfetch image)
+# -------------------------------
+mkdir -p "$HOME/.config/dotfiles"
+ln -sf "$PWD/assets" "$HOME/.config/dotfiles/assets"
 
 # -------------------------------
 # Symlinks
