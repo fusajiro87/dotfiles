@@ -29,6 +29,13 @@ chmod +x ./install.sh
 ./install.sh
 ```
 
+## Usage
+
+After installation, simply open Kitty.
+You may optionally set it as your default terminal.
+
+That's it.
+
 ##### Fastfetch image
 
 You can find the fastfetch image in `~/dotfiles/assets/`.
@@ -39,11 +46,3 @@ For reliable image rendering, the file **must be a PNG**.
 If the image does not fit your terminal, you can adjust it in
 `~/dotfiles/zsh/.zshrc` using the `--logo-padding` and `--logo-width`
 options (around line 53).
-
-## Usage
-
-After installation, simply open Kitty.
-You may optionally set it as your default terminal.
-
-That's it.
-
