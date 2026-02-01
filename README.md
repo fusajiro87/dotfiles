@@ -30,4 +30,14 @@ chmod +x ./install.sh
 exec zsh
 ```
 
-#### You can find fastfetch image in `~/dotfiles/assets/`, you may overwrite it with your own picture with name picture.jpg.
+##### Fastfetch image
+
+You can find the fastfetch image in `~/dotfiles/assets/`.
+You can replace it with your own picture (named `picture.png`).
+
+For reliable image rendering, the file **must be a PNG**.
+
+If the image does not fit your terminal, you can adjust it in
+`~/dotfiles/zsh/.zshrc` using the `--logo-padding` and `--logo-width`
+options (around line 53).
+
