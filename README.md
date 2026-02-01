@@ -31,7 +31,7 @@ A cél:
 ## 🚀 Telepítés új gépen
 
 ```bash
-git clone https://github.com/<USER>/dotfiles.git
+git clone https://github.com/fusajiro87/dotfiles.git
 cd dotfiles
 ./install.sh
 exec zsh
