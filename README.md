@@ -2,7 +2,7 @@
 
 My Zsh, Kitty, and Powerlevel10k configuration files.
 
-## 📦 Contents
+## Contents
 
 - **zsh**
   - oh-my-zsh
